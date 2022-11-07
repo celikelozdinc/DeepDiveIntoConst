@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/ozd/Desktop/Projects/DeepDiveIntoConst/build
 
 # The main recursive "all" target.
 all: CMakeFiles/const-member-variable.dir/all
+all: CMakeFiles/const-functions.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/const-member-variable.dir/clean
+clean: CMakeFiles/const-functions.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/const-member-variable.dir/clean
 CMakeFiles/const-member-variable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-member-variable.dir/build.make CMakeFiles/const-member-variable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-member-variable.dir/build.make CMakeFiles/const-member-variable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozd/Desktop/Projects/DeepDiveIntoConst/build/CMakeFiles --progress-num=1,2 "Built target const-member-variable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozd/Desktop/Projects/DeepDiveIntoConst/build/CMakeFiles --progress-num=4,5 "Built target const-member-variable"
 .PHONY : CMakeFiles/const-member-variable.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ const-member-variable: CMakeFiles/const-member-variable.dir/rule
 CMakeFiles/const-member-variable.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-member-variable.dir/build.make CMakeFiles/const-member-variable.dir/clean
 .PHONY : CMakeFiles/const-member-variable.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/const-functions.dir
+
+# All Build rule for target.
+CMakeFiles/const-functions.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ozd/Desktop/Projects/DeepDiveIntoConst/build/CMakeFiles --progress-num=1,2,3 "Built target const-functions"
+.PHONY : CMakeFiles/const-functions.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/const-functions.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozd/Desktop/Projects/DeepDiveIntoConst/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/const-functions.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ozd/Desktop/Projects/DeepDiveIntoConst/build/CMakeFiles 0
+.PHONY : CMakeFiles/const-functions.dir/rule
+
+# Convenience name for target.
+const-functions: CMakeFiles/const-functions.dir/rule
+.PHONY : const-functions
+
+# clean rule for target.
+CMakeFiles/const-functions.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/clean
+.PHONY : CMakeFiles/const-functions.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -129,6 +129,67 @@ const-member-variable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-member-variable.dir/build.make CMakeFiles/const-member-variable.dir/build
 .PHONY : const-member-variable/fast
 
+#=============================================================================
+# Target rules for targets named const-functions
+
+# Build rule for target.
+const-functions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const-functions
+.PHONY : const-functions
+
+# fast build rule for target.
+const-functions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/build
+.PHONY : const-functions/fast
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o
+
+# target to build an object file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.o
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.i: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.i
+
+# target to preprocess a source file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.i
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.s: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.s
+
+# target to generate assembly for a file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.s
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.o: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.o
+
+# target to build an object file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.o
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.i: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.i
+
+# target to preprocess a source file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.i
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.s: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.s
+
+# target to generate assembly for a file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.cpp.s
+
 home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.o: home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.cpp.o
 .PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.o
 
@@ -161,7 +222,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... const-functions"
 	@echo "... const-member-variable"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.i"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.s"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.o"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.i"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/client.s"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.o"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.i"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/MemberVariables/MyClassWithConstMember.s"
