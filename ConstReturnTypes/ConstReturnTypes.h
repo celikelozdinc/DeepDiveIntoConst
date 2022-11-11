@@ -4,7 +4,8 @@
 #include <iostream>
 
 /**
- * we should only return const T* pointers
+ * the pointer's constness is ignored for return types,
+ * so, we should only return const T* pointers
  * if we want to bring some constness to our return values
  */
 struct ConstPointer {
@@ -16,7 +17,8 @@ struct ConstPointer {
 };
 
 /**
- * we should only return const T* pointers
+ * the pointer's constness is ignored for return types,
+ * so, we should only return const T* pointers
  * if we want to bring some constness to our return values
  */
 struct PointerToConst {
