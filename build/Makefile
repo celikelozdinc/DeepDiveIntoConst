@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named const-return-types
+
+# Build rule for target.
+const-return-types: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const-return-types
+.PHONY : const-return-types
+
+# fast build rule for target.
+const-return-types/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-return-types.dir/build.make CMakeFiles/const-return-types.dir/build
+.PHONY : const-return-types/fast
+
+#=============================================================================
 # Target rules for targets named const-member-variable
 
 # Build rule for target.
@@ -141,6 +154,30 @@ const-functions: cmake_check_build_system
 const-functions/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-functions.dir/build.make CMakeFiles/const-functions.dir/build
 .PHONY : const-functions/fast
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.o: home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.o
+
+# target to build an object file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-return-types.dir/build.make CMakeFiles/const-return-types.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.o
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.o
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.i: home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.i
+
+# target to preprocess a source file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-return-types.dir/build.make CMakeFiles/const-return-types.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.i
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.i
+
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.s: home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.s
+
+# target to generate assembly for a file
+home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const-return-types.dir/build.make CMakeFiles/const-return-types.dir/home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.s
+.PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.cpp.s
 
 home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o: home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.cpp.o
 .PHONY : home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o
@@ -224,6 +261,10 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... const-functions"
 	@echo "... const-member-variable"
+	@echo "... const-return-types"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.o"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.i"
+	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/ConstReturnTypes/ConstReturnTypes.s"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.o"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.i"
 	@echo "... home/ozd/Desktop/Projects/DeepDiveIntoConst/Functions/StringVectorHolder.s"

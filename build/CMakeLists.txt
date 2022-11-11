@@ -7,3 +7,4 @@ include_directories(MemberVariables)
 
 add_executable(const-member-variable ../MemberVariables/MyClassWithConstMember.cpp)
 add_executable(const-functions ../Functions/client.cpp ../Functions/StringVectorHolder.cpp)
+add_executable(const-return-types ../ConstReturnTypes/ConstReturnTypes.cpp)
